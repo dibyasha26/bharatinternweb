@@ -1,0 +1,364 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI' , sans-serif;
+}
+html{
+scroll-behavior: smooth;
+}
+
+.portf{
+  background-image: linear-gradient(rgba(186, 10, 10, 0.622),rgb(203, 128, 16),rgb(209, 212, 55),rgb(243, 240, 243)) ;
+}
+h2{
+  margin-left: 2px;
+  padding-left: 5px;
+
+}
+
+.navbar{
+  display: flex;
+  width: 20;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #0e0d0d;
+  font-weight: bold;
+  padding: 7px 20px;
+}
+
+.navii a:hover {
+  background-color: #fff;
+  color: #0b29ee;
+  box-shadow: 0 0 10px rgb(122, 60, 144);
+}
+.navii a:active {
+  color: #ea5409;
+}
+
+/*home section*/
+
+#HOME{
+  display: flex;
+  flex-direction: column;
+}
+#HOME::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 765px;
+  width: 100%;
+  z-index: -1;
+  background-image: url(portfolio11.jpeg);
+}
+.home-content{
+  margin-left: 2%;
+  margin-top: 0.4%;
+  padding-top: 0 ;
+}
+.home-content h1{
+  font-size: 50px;
+  color: #fdfdfd;
+  margin-bottom: 10px;
+  padding-top: 100px;
+}
+.home-content span{
+  color: rgb(248, 248, 252);
+}
+.home-content p{
+  font-size: 20px;
+  color: #fff7f7;
+}
+.home-sci{
+  margin-left: 0;
+  margin-top: 5%;
+  padding-top: 0 ;
+}
+.home-sci a{
+  padding: 10px 18px;
+  font-weight: bold;
+  color: rgb(107, 177, 238);
+ 
+  background-color: #920a0a;
+  margin:  0;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgb(199, 44, 223);
+}
+.btn{
+  padding: 10px 55px;
+  background-color: transparent ;
+  border: 1px solid #8625b7;
+  color: #8625b7 ;
+  outline: none;
+  transition: .5s ease;
+
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #f8f4f9;
+  color: white;
+  box-shadow: 0 0 5px rgb(187, 119, 224), 0 0 10px rgb(198, 119, 224), 0 0 15px rgb(215, 119, 224);
+  font-weight: bold;
+}
+.Image_wp{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 100px;
+  height: 620px;
+  width: 450px;
+  filter: grayscale(1%);
+transition: filter 0.5s ease;
+}
+.Image_wp:hover {
+  filter: none;
+}
+/*about*/
+
+#ABOUT{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-image: url(portfolio13.jpeg);
+  color: white;
+  
+}
+
+#picc{
+  display: flex;
+  overflow: hidden;
+
+}
+.mypic{
+  width: 650px;
+  height: 500px;
+  margin-left: 100px;
+  transition: transform 0.3s ease;
+}
+.mypic:hover {
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+
+}
+.heaadings{
+  display: flex;
+  font-weight: bold;
+  padding: 30px;
+  margin: auto;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eee950;
+}
+#intro h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: rgb(245, 239, 166);
+  
+}
+p{
+  margin-right: 80px;
+  font-size: 18px;
+  padding: 12px;
+}
+#SKILLS{
+  display: flex;
+ flex-direction: column;
+ color: rgb(228, 207, 49);
+}
+.skill{ 
+  background-image: url(portfolio12.jpeg);
+  text-align: center;
+  background-color: rgba(244, 5, 160, 0.582) 1400px;
+  width: 1100px;
+  margin: 60px auto;
+  color: rgb(239, 241, 243);
+  box-shadow: 10 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  padding: 10px;
+}
+.softskill{
+  margin-bottom: 30px ;
+  font-size: 50px;
+}
+.sfskill{
+  margin: 10px;
+  word-spacing: 5px;
+  letter-spacing: 2.5px;
+  font-size: 25px;
+}
+.gradient-meter {
+  position: relative;
+  height: 30px;
+  width: 600px;
+  border: 1px solid black;
+}
+
+.gradient-meter::-webkit-meter-bar {
+  background-color: transparent;
+}
+
+.gradient-meter::-webkit-meter-optimum-value {
+  background: linear-gradient(to right, #f73e06, #e90fc5c3, #dbef67);
+}
+
+.portfolioo{
+  background-image: url(portfolio14.jpeg);
+  padding: 20px;
+}
+.skl{
+text-align: center;
+font-size: 50px;
+letter-spacing: 1px;
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}  
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  width:350px ;
+  height: 350px;
+  border: 1px solid black;
+  margin: 10px; ;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgba(12, 237, 87, 0.531)50%, white 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+
+}
+
+.box:hover{
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(14, 9, 15);
+}
+
+#CONTACT{
+  background-image: url(portfolio15.jpeg);
+}
+.contact_container{
+  row-gap: 3rem;
+}
+
+.contact_info{
+  display: flex;
+  margin-bottom: 20px;
+}
+.contact_icon{
+  font-size: 2rem;
+  color: rgba(128, 0, 94, 0.713);
+  margin-right: 20px;
+}
+.con_title{
+  font-size: 40px;
+  text-align: center;
+}
+.con_content{
+  background-color: rgb(232, 212, 252);
+  border-radius: .5rem;
+  padding: .75rem 1rem .25rem;
+  
+}
+.con_label{
+  font-size: 15px;
+  color: rgb(34, 34, 34); 
+}
+.contact_input{
+  width: 100%;
+  background-color: rgb(220, 183, 241);
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: .25rem .5rem .5rem 0;
+}
+
+.Contact_submit{
+  align-items: center;
+  
+  text-align: center;
+  margin-left: 2%;
+  margin-top: 5%;
+  padding-top: 0 ;
+  padding: 15px 25px;
+  font-weight: bold;
+  color: aliceblue;
+  display: inline-block;
+  background-color: #4c9110;
+  margin: 30px 0;
+  border-radius: 2px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgb(195, 239, 151);
+}
+
+.footer_container{
+  display: flex;
+  flex-direction: column;
+}
+.footer_logo{
+  font-size: 2rem;
+ 
+  margin-right: 20px;
+}
+.bxl-facebook-circle{
+  color: #002fff;
+}
+.bxl-facebook-circle:hover{
+  color: #4430c8;
+}
+.bxl-instagram-alt{
+  color: #3723cfd4;
+}
+.bxl-snapchat{
+  color: rgb(232, 236, 24);
+}
+.bxl-pinterest{
+  color: red;
+}
+.bxl-twitter{
+  color: rgb(35, 132, 242);
+}
+.text-b {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 10px;
+  color: #454242;
+  font-size: 14px;
+}
